@@ -41,7 +41,7 @@ To set some environment variable `<env_var>` to value `<value>`, modify (or crea
 **Required**
 
 * `BTT_USR_ROOT` is the path to the user-facing folder containing preset scripts and configurations. Defaults to `~/bettertouchtool`.
-* `BTT_WEBSERVER_URL` is the BetterTouchTool web server URL in the format `protocol://hostname:port`. If not specified, will default to `http://127.0.0.1:64875`. Be advised that HTTPS incurs some latency.
+* `BTT_WEBSERVER_URL` is the BetterTouchTool web server URL in the format `protocol://address:port`. If not specified, will default to `http://127.0.0.1:64875`. Be advised that HTTPS incurs some latency.
 * `BTT_WEBSERVER_SHAREDSECRET` is the optional shared secret to authenticate pushes to the BetterTouchTool web server. Leave blank if not using a shared secret to authenticate pushes.
 
 **User-Facing**
