@@ -13,6 +13,7 @@ Article about the preset at [andrewchidden.com](https://andrewchidden.com/long-l
 ## Installation
 
 1. If not already installed, download and install [BetterTouchTool](https://folivora.ai/downloads).
+	* **UPDATE (Aug 28): The preset was exported and tested using BTT v2.536 and may not work for the recently released BTT v2.6xx**. You can download `btt2.536.zip` here: [https://bettertouchtool.net/releases/](https://bettertouchtool.net/releases/)
 2. Download the latest controller scripts and compiled service binaries for the preset: [andrewchidden/btt-controllers](https://github.com/andrewchidden/btt-controllers).
 	* `git clone` the repository to have the path `~/bettertouchtool`.
 	* Alternatively, download the zip archive, decompress, and move + rename as `~/bettertouchtool`.
@@ -30,6 +31,9 @@ For all steps, see the **environment variables::setting** section for help if ne
 2. Set the environment variables `BTT_WEBSERVER_URL` and `BTT_WEBSERVER_SHAREDSECRET` corresponding to the BetterTouchTool web server URL and shared secret. Can be found by enabling “Advanced” mode, opening “Advanced Settings,” and then navigating to the “Webserver” tab.
 3. Set the environment variable `BTT_EVENTKIT_CALENDAR_NAMES` to a comma-delimited, case-sensitive list of calendar names that should be checked for upcoming events. 
 4. Set the environment variable `BTT_GIT_WORKING_DIR` to the primary working directory for Git diff statistics and macro-triggered Git operations.
+5. If necessary, modify the “General Touch Bar Settings” to match those below:
+
+![General Touch Bar settings](bettertouchtool-touchbar-settings@2x.png)
 
 ## Environment Variables
 
