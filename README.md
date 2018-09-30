@@ -52,6 +52,7 @@ To set some environment variable `<env_var>` to value `<value>`, modify (or crea
 
 * `BTT_EVENTKIT_CALENDAR_NAMES` is the comma-delimited, case-sensitive list of calendar names to check for upcoming events. If not specified, all calendars are checked.
 * `BTT_GIT_WORKING_DIR` is the working directory to use for macro-triggered Git operations and diff statistics. If not specified, Git commands will fail.
+* `BTT_EVENTKIT_MAXLENGTH` is the maximum length of the calendar text status. Long event names will be truncated in the middle with an ellipsis. If not specified, defaults to 40.
 
 **System**
 
